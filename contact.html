@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact OlivyraStudio — reach out about custom designs, wholesale, or order questions. We reply within 24 hours.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OlivyraStudio">
+<meta property="og:title" content="Contact — OlivyraStudio">
+<meta property="og:description" content="Reach out about custom designs, wholesale, or order questions. We reply within 24 hours.">
+<meta name="twitter:card" content="summary_large_image">
+<title>Contact — OlivyraStudio</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#183a2e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+.contact-hero { padding: 48px 0 32px; }
+.contact-grid {
+  display: grid; gap: 40px; align-items: start;
+}
+@media (min-width: 900px) { .contact-grid { grid-template-columns: 1fr 1fr; gap: 56px; } }
+.contact-info h2 { font-size: 1.25rem; margin-bottom: 20px; }
+.contact-method { margin-bottom: 24px; }
+.contact-method h3 { font-size: 1rem; margin-bottom: 4px; }
+.contact-method p { color: #6b7c74; font-size: 0.9375rem; line-height: 1.6; }
+.contact-method a { color: var(--accent, #c9a86c); text-decoration: none; }
+.contact-method a:hover { text-decoration: underline; }
+.contact-form-card {
+  background: var(--surface, #f6f5f0);
+  border-radius: var(--r-md, 12px);
+  padding: 32px;
+}
+.contact-form-card h2 { font-size: 1.5rem; margin-bottom: 24px; }
+.cf-group { margin-bottom: 18px; }
+.cf-group label {
+  display: block; font-size: 13px; font-weight: 700;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  color: #6b7c74; margin-bottom: 6px;
+}
+.cf-group input, .cf-group textarea, .cf-group select {
+  width: 100%; min-height: 48px; padding: 12px 14px;
+  border: 1.5px solid var(--border, #d4cec4); border-radius: var(--r-sm, 8px);
+  background: var(--paper, #fafaf7); color: var(--text, #1c2b24);
+  font-size: 16px; font-family: inherit; transition: border-color 150ms ease;
+}
+.cf-group input:focus, .cf-group textarea:focus, .cf-group select:focus {
+  outline: none; border-color: var(--accent, #c9a86c);
+}
+.cf-group textarea { min-height: 120px; resize: vertical; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 500px) { .cf-row { grid-template-columns: 1fr; } }
+.cf-success { display: none; padding: 16px; border-radius: var(--r-sm, 8px); margin-top: 16px; background: #e8f5e9; color: #2e7d32; }
+.cf-error { display: none; padding: 16px; border-radius: var(--r-sm, 8px); margin-top: 16px; background: #ffebee; color: #c62828; }
+.cf-note { font-size: 13px; color: #6b7c74; margin-top: 12px; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="OlivyraStudio home">
+        <span class="brand-mark" aria-hidden="true">O</span>
+        <span>
+          <span class="brand-name">OlivyraStudio</span>
+          <span class="brand-sub">Digital designs &amp; bookish goods</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="shop.html">Shop</a>
+        <a href="shop.html?category=digital">Digital designs</a>
+        <a href="shop.html?category=apparel">Apparel</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="btn btn--sm" href="https://www.etsy.com/shop/OlivyraStudio" target="_blank" rel="noopener">Shop on Etsy
+          <svg class="od-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+        </a>
+      </nav>
+      <div class="header-actions">
+        <button class="menu-toggle" type="button" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="shop.html?category=digital">Digital designs</a></li>
+        <li><a href="shop.html?category=apparel">Apparel</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a class="btn" href="https://www.etsy.com/shop/OlivyraStudio" target="_blank" rel="noopener">Shop on Etsy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Contact</span>
+    </nav>
+
+    <section class="contact-hero section" aria-labelledby="contact-title">
+      <div class="wrap">
+        <span class="eyebrow">Get in touch</span>
+        <h1 id="contact-title">Contact the studio</h1>
+        <p>Questions about a design, custom requests, wholesale inquiries, or order issues — drop us a note and we will get back to you within 24 hours.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-section-title">
+      <div class="wrap">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2>Other ways to reach us</h2>
+            <div class="contact-method">
+              <h3>Etsy messages</h3>
+              <p>Fastest response. Message us through our <a href="https://www.etsy.com/shop/OlivyraStudio" target="_blank" rel="noopener">Etsy shop</a>. We typically reply the same day.</p>
+            </div>
+            <div class="contact-method">
+              <h3>Email</h3>
+              <p>For non-urgent matters or bulk orders, email <a href="mailto:hello@olivyrastudio.com">hello@olivyrastudio.com</a>.</p>
+            </div>
+            <div class="contact-method">
+              <h3>Social</h3>
+              <p>Follow new drops on Instagram and Pinterest — search <strong>@olivyrastudio</strong>.</p>
+            </div>
+            <div class="contact-method">
+              <h3>Response time</h3>
+              <p>We aim to respond within 24 hours on business days. Holiday delays may apply during peak seasons.</p>
+            </div>
+          </div>
+          <div class="contact-form-card">
+            <h2>Send a message</h2>
+            <form name="contact" netlify netlify-honeypot="bot-field" data-netlify="true" id="contact-form">
+              <input type="hidden" name="form-name" value="contact">
+              <div class="cf-error" id="cf-error" role="alert"></div>
+              <div class="cf-success" id="cf-success" tabindex="-1">
+                <strong>Message sent!</strong> Thank you for reaching out. We will get back to you shortly.
+              </div>
+              <div class="cf-row">
+                <div class="cf-group">
+                  <label for="cf-name">Name *</label>
+                  <input type="text" id="cf-name" name="name" required autocomplete="name" placeholder="Your full name">
+                </div>
+                <div class="cf-group">
+                  <label for="cf-email">Email *</label>
+                  <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder="you@example.com">
+                </div>
+              </div>
+              <div class="cf-group">
+                <label for="cf-subject">Subject</label>
+                <select id="cf-subject" name="subject">
+                  <option value="">Choose a topic…</option>
+                  <option value="order">Order question</option>
+                  <option value="custom">Custom design request</option>
+                  <option value="wholesale">Wholesale / bulk order</option>
+                  <option value="digital">Digital download issue</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="cf-group">
+                <label for="cf-message">Message *</label>
+                <textarea id="cf-message" name="message" required placeholder="Tell us what you need help with…" rows="5"></textarea>
+              </div>
+              <div class="cf-group" style="display:none">
+                <label>Don't fill this: <input name="bot-field"></label>
+              </div>
+              <button class="btn btn--block" type="submit" id="cf-submit-btn">Send message</button>
+              <p class="cf-note">By submitting, you agree we may reply about your inquiry. No marketing spam.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="OlivyraStudio home">
+          <span class="brand-mark" aria-hidden="true">O</span>
+          <span>
+            <span class="brand-name">OlivyraStudio</span>
+            <span class="brand-sub">Digital designs &amp; bookish goods</span>
+          </span>
+        </a>
+        <p>Playful digital artwork and bookish apparel, made in small batches and fulfilled through Etsy.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="shop.html">All pieces</a></li>
+          <li><a href="shop.html?category=digital">Digital designs</a></li>
+          <li><a href="shop.html?category=apparel">Apparel</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="index.html#faq">Downloads</a></li>
+          <li><a href="index.html#faq">Sizing &amp; care</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Studio</h3>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://www.etsy.com/shop/OlivyraStudio" target="_blank" rel="noopener">Etsy shop</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 OlivyraStudio. All rights reserved.</span>
+      <span>Checkout, downloads and fulfillment handled by <a href="https://www.etsy.com/shop/OlivyraStudio" target="_blank" rel="noopener">Etsy</a>.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+<script>
+(function () {
+  var form = document.getElementById('contact-form');
+  var successEl = document.getElementById('cf-success');
+  var errorEl = document.getElementById('cf-error');
+  var submitBtn = document.getElementById('cf-submit-btn');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    errorEl.style.display = 'none';
+    successEl.style.display = 'none';
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+    var fd = new FormData(form);
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        'form-name': 'contact',
+        name: fd.get('name'),
+        email: fd.get('email'),
+        subject: fd.get('subject') || '',
+        message: fd.get('message')
+      }).toString()
+    })
+    .then(function (res) {
+      if (!res.ok) throw new Error('fail');
+      successEl.style.display = 'block';
+      form.reset();
+      submitBtn.textContent = 'Send message';
+      submitBtn.disabled = false;
+    })
+    .catch(function () {
+      errorEl.textContent = 'Something went wrong. Please try again or message us on Etsy.';
+      errorEl.style.display = 'block';
+      submitBtn.textContent = 'Send message';
+      submitBtn.disabled = false;
+    });
+  });
+})();
+</script>
+</body>
+</html>

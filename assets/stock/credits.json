@@ -1,0 +1,36 @@
+{
+  "source": "OlivyraStudio public Etsy listings",
+  "shop_url": "https://www.etsy.com/shop/OlivyraStudio",
+  "retrieved": "2026-11-09",
+  "rights_note": "Product photography and artwork shown are from the shop's own public Etsy listings. All rights remain with OlivyraStudio; used here to present the shop's own catalog.",
+  "images": [
+    {
+      "file": "assets/products/christmas-mama.jpg",
+      "title": "Christmas Mama and Baby PNG SVG Bundle",
+      "listing_url": "https://www.etsy.com/listing/4603210225/christmas-mama-and-baby-png-svg-bundle",
+      "image_url": "https://i.etsystatic.com/34838411/r/il/d31b2a/8790265697/il_1140xN.8790265697_ecew.jpg",
+      "dimensions": "1140x1140"
+    },
+    {
+      "file": "assets/products/christmas-boss.jpg",
+      "title": "Christmas Boss PNG SVG Bundle, Green Holiday Character Streetwear Design",
+      "listing_url": "https://www.etsy.com/listing/4603088639/christmas-boss-png-svg-bundle-green",
+      "image_url": "https://i.etsystatic.com/34838411/r/il/be41e4/8789203259/il_1140xN.8789203259_c5k6.jpg",
+      "dimensions": "1140x1140"
+    },
+    {
+      "file": "assets/products/black-cat-shirt.jpg",
+      "title": "Gothic Black Cat Bookish Shirt, I Read Books Tee, Dark Academia Comfort Colors 1717 T-Shirt",
+      "listing_url": "https://www.etsy.com/listing/4601998838/gothic-black-cat-bookish-shirt-i-read",
+      "image_url": "https://i.etsystatic.com/34838411/r/il/739a9f/8779573833/il_1140xN.8779573833_9l4e.jpg",
+      "dimensions": "1140x1140"
+    },
+    {
+      "file": "assets/products/book-club-shirt.jpg",
+      "title": "Book Club Shirt, Vintage Floral Book Lover Tee, Ivory Comfort Colors 1717",
+      "listing_url": "https://www.etsy.com/listing/4601437960/book-club-shirt-vintage-floral-book",
+      "image_url": "https://i.etsystatic.com/34838411/r/il/400d9b/8727002534/il_1140xN.8727002534_mnwr.jpg",
+      "dimensions": "1140x1520"
+    }
+  ]
+}

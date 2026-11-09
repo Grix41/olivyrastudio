@@ -1,0 +1,24 @@
+# Security & performance response headers for OlivyraStudio.
+# Netlify / Vercel / Cloudflare Pages compatible — deploy alongside the root build output.
+# See: https://docs.netlify.com/routing/headers/ · https://vercel.com/docs/security/headers
+
+## Primary HTML pages — security headers + moderate cache
+/*
+  content-security-policy: "default-src 'self'; script-src 'self' https://fonts.googleapis.com https://www.etsystatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: https://i.etsystatic.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' https://www.etsy.com"
+  strict-transport-security: "max-age=31536000; includeSubDomains"
+  x-content-type-options: "nosniff"
+  x-frame-options: "DENY"
+  referrer-policy: "strict-origin-when-cross-origin"
+  permissions-policy: "camera=(), microphone=(), geolocation=()"
+  cache-control: "public, max-age=3600"
+*/
+
+## Static assets — aggressive cache (hashes change on rebuild)
+/assets/*.css
+/cache-control: "public, max-age=86400, immutable"
+
+/assets/*.js
+/cache-control: "public, max-age=86400, immutable"
+
+/assets/products/*
+/cache-control: "public, max-age=31536000, immutable"
